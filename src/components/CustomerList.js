@@ -90,10 +90,9 @@ export default function Customerlist() {
                     variant="contained"
                     color="secondary"
                     startIcon={<DeleteIcon />}
-                    onClick={() => deleteCustomer(row.value)}
-                >
+                    onClick={() => deleteCustomer(row.value)}>
                     Delete
-          </Button>,
+                </Button>,
             filterable: false,
             sortable: false,
             width: 150

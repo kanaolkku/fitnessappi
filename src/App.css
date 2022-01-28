@@ -5,9 +5,10 @@
   width: 1px;
   padding: 40%;
 }
-.addNappi {
-  margin-right: 80%;
+.addButton {
+  margin-left: 20px;
   padding: 10px;
+  width: 150px;
 }
 .App-logo {
   height: 40vmin;
@@ -55,4 +56,12 @@
 }
 .navButton {
   padding: 2 20;
+}
+
+#customer {
+  padding: 4px 10px;
+}
+
+#customer:hover {
+  cursor: pointer;
 }
